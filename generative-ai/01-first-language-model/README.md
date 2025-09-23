@@ -123,9 +123,11 @@ Exit the interactive chat with:
 
 Gemma 3 comes in different sizes — from fast and lightweight to large and powerful.
 
-You can find the full list here:
+You can find the list of Gemma models here:
 
 🔗 [https://ollama.com/library/gemma3](https://ollama.com/library/gemma3)
+
+Use `ollama list` to see which models are already downloaded on your machine.
 
 Try running different versions by typing:
 
@@ -144,6 +146,10 @@ ollama run gemma3:27b-it-qat
 ```
 
 See how performance, output quality, and model size compare.
+
+For even more models, use the ollama search: [https://ollama.com/search](https://ollama.com/search)
+
+Can you find any interesting models? For example a model that does "reasoning" (chain-of-thought). What's their performance on our little ARM board?
 
 ## 📊 Step 6: Measure Performance with `--verbose`
 
