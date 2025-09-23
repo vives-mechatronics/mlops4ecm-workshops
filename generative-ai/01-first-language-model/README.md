@@ -127,6 +127,8 @@ You can find the full list here:
 
 🔗 [https://ollama.com/library/gemma3](https://ollama.com/library/gemma3)
 
+Use `ollama list` to see which models are already downloaded on your machine.
+
 Try running different versions by typing:
 
 ```bash
@@ -165,6 +167,12 @@ Try comparing different models and record their performance.
 * Which one runs fastest?
 * Which one gives the best answers?
 * What’s the biggest model you can still run smoothly?
+
+For even more models, use the Ollama search:
+
+🔗 [https://ollama.com/search](https://ollama.com/search)
+
+Can you find any interesting models? For example, a model that does ‘reasoning’ (chain of thought). How’s their performance on our GPU server?
 
 ## 🎉 Done!
 
