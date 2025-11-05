@@ -116,10 +116,10 @@ Your training script is already set up to call an `upload_to_s3()` function — 
    from dotenv import load_dotenv
    load_dotenv()
    ```
-3. Install the `dotenv` library:
+3. Install the `boto3` and `dotenv` libraries:
    ```bash
    source .venv/bin/activate
-   pip install dotenv
+   pip install boto3 dotenv
    ```
 4. Run the training script:
    ```bash
