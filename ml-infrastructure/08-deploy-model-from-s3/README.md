@@ -148,7 +148,7 @@ Add logic to **periodically check** for a newer model version in your MinIO buck
 
 * Use `boto3` to get 'LastModified' of your model
 * Reload the model if a newer one appears.
-* Optionally run this check in a background thread.
+* Run this check in a background thread.
 
 ```
 response = s3.head_object(Bucket=, Key=)
