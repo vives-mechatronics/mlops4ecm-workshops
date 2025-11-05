@@ -90,7 +90,7 @@ Then, VS Code will ask you to **choose a kernel source**. Choose:
 Follow these steps:
 
 1. **Select `Venv`** – this creates a `.venv` folder in your current workspace.
-2. **Choose the `/bin/python3` interpreter** – usually something like **Python 3.11**.
+2. **Choose the `/bin/python3` interpreter** – usually something like **Python 3.13**.
 3. **For dependencies**, select the `requirements.txt` file inside the `01-running-the-notebook` folder.
 4. Click **“OK”**.
 
